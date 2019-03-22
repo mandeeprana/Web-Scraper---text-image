@@ -1,0 +1,49 @@
+Loading the scraper and running a sample script
+
+1. Load Python
+   www.python.org/downloads
+   3.6.4+
+   install
+
+2. Add to path
+   find where python was installed and add the folder that has python.exe to your env
+   On my laptop the location is: C:\Users\u13996\AppData\Local\Programs\Python\Python36-32\python.exe
+   test:
+     open a cmd prompt (click on windows img on lower left, type cmd and return)
+     type python on the command window and return. 
+     you should see something similar to 
+        Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:04:45) [MSC v.1900 32 bit (Intel)] on win32
+        Type "help", "copyright", "credits" or "license" for more information.
+
+3. Add Python "pip.exe" to path
+   Add C:\Users\u13996\AppData\Local\Programs\Python\Python36-32\Scripts\
+
+4. Install Selenium
+   pip install selenium
+   if there are any issues, check to see if pip is in the path- from command prompt "where pip"
+
+5. Install Chrome Driver 
+   go to http://chromedriver.storage.googleapis.com/index.html?path=2.33/
+   download driver for windows (only have 32 bit version)
+   place the driver at a proper location 
+     Add C:\Users\u13996\AppData\Local\Programs\Python\Python36-32\Selenium\webdriver\
+   Add to path
+
+   If you do not have Chrome on your desktop, install Chrome browser
+
+6. Get Sri's code with examples (you may have already done this
+   copy this folder on to C:\
+     \\KCFiles\Share\Away From Home\Team\eCommerce SBP\2018\NA eCommerce\Scraping\SeleniumApps
+
+7. Run sample
+   C:\>python C:\SeleniumApps\RandomScriptRunner.py c:\SeleniumApps\500SKUs.txt c:\SeleniumApps\500SKUs_out.txt
+
+Part 2:
+
+8. Add chropath app on chrome
+   open chrome browser
+   go to chrome webstore: https://chrome.google.com/webstore/category/extensions
+   search ChroPath
+   then add to chrome
+
+You are now ready to write your own scripts. This will be a separate tutorial. 

@@ -1,0 +1,605 @@
+gotoURL | https://www.amazon.com/dp/B008CGX0RO
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,01000,B008CGX0RO,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B001AZFA0O
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,04460,B001AZFA0O,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B001AZKS4W
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,01804,B001AZKS4W,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0014C440U
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,17713,B0014C440U,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B001B0AF80
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,02000,B001B0AF80,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B001E63FTM
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,07805,B001E63FTM,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B001CXWNGI
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,07006,B001CXWNGI,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOD86
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,04007,B0040ZOD86,$price,$dealprice,$selleramzn,$Ship,$sns
+
+gotoURL | https://www.amazon.com/dp/B008CGX4YS
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,75130,B008CGX4YS,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOF9S
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,34790,B0040ZOF9S,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOF2A
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,21400,B0040ZOF2A,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOIZO
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,67805,B0040ZOIZO,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B002XJOKNY
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,01005,B002XJOKNY,$price,$dealprice,$selleramzn,$Ship,$sns
+
+gotoURL | https://www.amazon.com/dp/B0061X35XY
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,05812,B0061X35XY,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B000JCIDS0
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,04142,B000JCIDS0,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B008I7TNDW
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,13217,B008I7TNDW,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B00375LQJ4
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,01040,B00375LQJ4,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOD1S
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,01960,B0040ZOD1S,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOD0Y
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,01890,B0040ZOD0Y,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B00375LQKI
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,05701,B00375LQKI,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOD22
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,01980,B0040ZOD22,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOI1S
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,50606,B0040ZOI1S,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOEYY
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,21270,B0040ZOEYY,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOF2U
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,21606,B0040ZOF2U,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0087S2QAE
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //span[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,01510,B0087S2QAE,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B008I7UOG2
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,25703,B008I7UOG2,$price,$dealprice,$selleramzn,$Ship,$sns
+
+gotoURL | https://www.amazon.com/dp/B004JJMWH2
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,12388,B004JJMWH2,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B00004TBJF
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,75260,B00004TBJF,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B008I7UNG8
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,25700,B008I7UNG8,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B006K1U8A0
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,21271,B006K1U8A0,$price,$dealprice,$selleramzn,$Ship,$sns
+
+gotoURL | https://www.amazon.com/dp/B001AZFA0E
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,41482,B001AZFA0E,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B008CGX4AW
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,75190,B008CGX4AW,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B01N6QPX28
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,40587,B01N6QPX28,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B008AM07M6
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,01080,B008AM07M6,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOCZK
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,01807,B0040ZOCZK,$price,$dealprice,$selleramzn,$Ship,$sns
+
+
+gotoURL | https://www.amazon.com/dp/B0040ZOIAO
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,55082,B0040ZOIAO,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOJ7G
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,83550,B0040ZOJ7G,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0087S2PKU
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,01500,B0087S2PKU,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOEZS
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //span[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,21272,B0040ZOEZS,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOF5M
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,34015,B0040ZOF5M,$price,$dealprice,$selleramzn,$Ship,$sns
+
+gotoURL | https://www.amazon.com/dp/B00982Y3NQ
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,25688,B00982Y3NQ,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOFTI
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,41055,B0040ZOFTI,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B001B1703M
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,07223,B001B1703M,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B001429EHI
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,34155,B001429EHI,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B007RG4P9M
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,21340,B007RG4P9M,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOK66
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,91552,B0040ZOK66,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B004T3B7B0
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,05790,B004T3B7B0,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B01FVR9LWO
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,02001,B01FVR9LWO,$price,$dealprice,$selleramzn,$Ship,$sns
+
+
+gotoURL | https://www.amazon.com/dp/B0040ZOFRK
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,41025,B0040ZOFRK,$price,$dealprice,$selleramzn,$Ship,$sns
+
+gotoURL | https://www.amazon.com/dp/B008DHH7BM
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,07410,B008DHH7BM,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOFSO
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,41043,B0040ZOFSO,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B004MDM78Y
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,13254,B004MDM78Y,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOFUW
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,41200,B0040ZOFUW,$price,$dealprice,$selleramzn,$Ship,$sns
+
+
+gotoURL | https://www.amazon.com/dp/B0040ZOD04
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,01840,B0040ZOD04,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0177KTSD0
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,48040,B0177KTSD0,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B01MXPSWUT
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //span[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,75143,B01MXPSWUT,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOD68
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,03076,B0040ZOD68,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B00982Y2QE
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,25676,B00982Y2QE,$price,$dealprice,$selleramzn,$Ship,$sns
+
+gotoURL | https://www.amazon.com/dp/B0040ZOFW0
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,41455,B0040ZOFW0,$price,$dealprice,$selleramzn,$Ship,$sns
+
+gotoURL | https://www.amazon.com/dp/B0087S2RH6
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,01700,B0087S2RH6,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOFSE
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,41041,B0040ZOFSE,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOJYO
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,91371,B0040ZOJYO,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZODTK
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,07827,B0040ZODTK,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B007UUNP0K
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,05841,B007UUNP0K,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOMIC
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,98908,B0040ZOMIC,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOF70
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,34256,B0040ZOF70,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOFWK
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,41600,B0040ZOFWK,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B000JCKB6W
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,34955,B000JCKB6W,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZODQ8
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,06411,B0040ZODQ8,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZODCC
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,05320,B0040ZODCC,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B001E6876I
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,05800,B001E6876I,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B007AQJ9T0
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,08009,B007AQJ9T0,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B000783SKO
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,05102,B000783SKO,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOKHU
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,91592,B0040ZOKHU,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZODQI
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,06471,B0040ZODQI,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOHPA
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,48280,B0040ZOHPA,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0002ZX0RS
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,05925,B0002ZX0RS,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOFC0
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,35015,B0040ZOFC0,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B00JMQNLKY
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,55081,B00JMQNLKY,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOFA2
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,34865,B0040ZOFA2,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0087S3TBO
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,13964,B0087S3TBO,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOFBG
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,34965,B0040ZOFBG,$price,$dealprice,$selleramzn,$Ship,$sns
+gotoURL | https://www.amazon.com/dp/B0040ZOK8O
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,91554,B0040ZOK8O,$price,$dealprice,$selleramzn,$Ship,$sns
+
+
+gotoURL | https://www.amazon.com/dp/B001E65HE8
+readXPATHElement | //span[@id='priceblock_ourprice'] | price
+readXPATHElement | //span[@id='priceblock_dealprice'] | dealprice
+readXPATHElement | //span[@id='subscriptionPrice'] | sns
+containsStrXpathElem | //div[@id='merchant-info'] | Ships from and sold by Amazon.com |selleramzn
+readXPATHElement | //div[@id='merchant-info']//a[1] | Ship
+write2OutputFile | $rundatetime,07005,B001E65HE8,$price,$dealprice,$selleramzn,$Ship,$sns
+
