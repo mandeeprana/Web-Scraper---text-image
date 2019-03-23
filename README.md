@@ -5,3 +5,5 @@ This is a python tool developed to scrape any web element (text or image) from a
 I'm also sharing 'Scheduler.bat' file if there is need to automate the web scraping process by scheduling this file with the operating system.
 
 For more details on how the process works, please feel free to connect or raise questions. Will be happy to help!
+
+Copyright: Mandeep Rana
